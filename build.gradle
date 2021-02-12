@@ -33,5 +33,5 @@ compileTestKotlin {
 }
 
 application {
-    mainClass = 'pe.devpicon.sandbox.ktor.MyKtorServerKt'
+    mainClass = 'io.ktor.server.netty.EngineMain'
 }
