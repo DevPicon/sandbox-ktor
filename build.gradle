@@ -31,3 +31,7 @@ compileKotlin {
 compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
+
+application {
+    mainClass = 'pe.devpicon.sandbox.ktor.MyKtorServerKt'
+}
